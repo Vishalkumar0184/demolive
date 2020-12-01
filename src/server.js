@@ -16,5 +16,5 @@ app.get('',(req, res)=>{
 
 app.listen(port,(error, result)=>{
     if(error) console.log(error)
-    else console.log("server is up and running on port",port)
+    else console.log("server running on port",port)
 })
